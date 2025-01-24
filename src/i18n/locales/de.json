@@ -157,5 +157,19 @@
       "message": "Nachricht",
       "submit": "Nachricht senden"
     }
+  },
+  "footer": {
+    "company": "Unternehmen",
+    "about": "Über uns",
+    "careers": "Karriere",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "services": "Dienstleistungen",
+    "contact": {
+      "title": "Kontakt",
+      "email": "contact@tomextech.com",
+      "phone": "+49 (0) 123-4567"
+    },
+    "rights": "© 2024 TomexTech. Alle Rechte vorbehalten."
   }
 }

@@ -157,5 +157,19 @@
       "message": "Üzenet",
       "submit": "Üzenet küldése"
     }
+  },
+  "footer": {
+    "company": "Cég",
+    "about": "Rólunk",
+    "careers": "Karrierlehetőségek",
+    "privacy": "Adatvédelmi irányelvek",
+    "terms": "Felhasználási feltételek",
+    "services": "Szolgáltatások",
+    "contact": {
+      "title": "Kapcsolat",
+      "email": "contact@tomextech.com",
+      "phone": "+36 20 331 4299"
+    },
+    "rights": "© 2024 TomexTech. Minden jog fenntartva."
   }
 }

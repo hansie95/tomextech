@@ -157,5 +157,19 @@
       "message": "Message",
       "submit": "Send Message"
     }
+  },
+  "footer": {
+    "company": "Company",
+    "about": "About Us",
+    "careers": "Careers",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "services": "Services",
+    "contact": {
+      "title": "Contact",
+      "email": "contact@tomextech.com",
+      "phone": "+1 (555) 123-4567"
+    },
+    "rights": "© 2024 TomexTech. All rights reserved."
   }
 }
