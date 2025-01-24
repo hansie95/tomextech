@@ -16,8 +16,8 @@ const HeroSection = () => {
 
   const stats = [
     { value: '10+', label: t('hero.stats.experience') },
-    { value: '200+', label: t('hero.stats.projects') },
-    { value: '50+', label: t('hero.stats.team') },
+    { value: '30+', label: t('hero.stats.projects') },
+    { value: '20+', label: t('hero.stats.team') },
     { value: '99%', label: t('hero.stats.satisfaction') }
   ];
 
