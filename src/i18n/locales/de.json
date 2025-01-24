@@ -122,5 +122,40 @@
       "title": "Wartung",
       "description": "Laufende Unterstützung und Wartung"
     }
+  },
+  "howWeWork": {
+    "title": "Wie wir arbeiten",
+    "subtitle": "Transparente und effiziente Prozesse für erfolgreiche Projekte",
+    "steps": {
+      "meeting": {
+        "title": "Erstes Gespräch",
+        "description": "Bedarfsanalyse und Projektplanung"
+      },
+      "proposal": {
+        "title": "Angebotserstellung",
+        "description": "Detaillierte technische und finanzielle Planung"
+      },
+      "implementation": {
+        "title": "Umsetzung",
+        "description": "Agile Entwicklung und kontinuierliche Kommunikation"
+      },
+      "testing": {
+        "title": "Testen",
+        "description": "Qualitätssicherung und Leistungsoptimierung"
+      },
+      "delivery": {
+        "title": "Übergabe",
+        "description": "Produktivstart und Support"
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Nachricht senden"
+    }
   }
 }

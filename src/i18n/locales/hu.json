@@ -122,5 +122,40 @@
       "title": "Karbantartás",
       "description": "Folyamatos támogatás és karbantartás"
     }
+  },
+  "howWeWork": {
+    "title": "Hogyan dolgozunk",
+    "subtitle": "Átlátható és hatékony folyamatok a sikeres projektekért",
+    "steps": {
+      "meeting": {
+        "title": "Kezdeti megbeszélés",
+        "description": "Igények felmérése és projekt tervezés"
+      },
+      "proposal": {
+        "title": "Ajánlat készítés",
+        "description": "Részletes technikai és pénzügyi tervezés"
+      },
+      "implementation": {
+        "title": "Megvalósítás",
+        "description": "Agilis fejlesztés és folyamatos kommunikáció"
+      },
+      "testing": {
+        "title": "Tesztelés",
+        "description": "Minőségbiztosítás és teljesítmény optimalizálás"
+      },
+      "delivery": {
+        "title": "Átadás",
+        "description": "Éles indítás és támogatás"
+      }
+    }
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "form": {
+      "name": "Név",
+      "email": "Email",
+      "message": "Üzenet",
+      "submit": "Üzenet küldése"
+    }
   }
 }

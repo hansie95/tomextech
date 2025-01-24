@@ -122,5 +122,40 @@
       "title": "Maintenance",
       "description": "Ongoing support and maintenance"
     }
+  },
+  "howWeWork": {
+    "title": "How We Work",
+    "subtitle": "Transparent and efficient processes for successful projects",
+    "steps": {
+      "meeting": {
+        "title": "Initial Meeting",
+        "description": "Requirements gathering and project planning"
+      },
+      "proposal": {
+        "title": "Proposal Creation",
+        "description": "Detailed technical and financial planning"
+      },
+      "implementation": {
+        "title": "Implementation",
+        "description": "Agile development and continuous communication"
+      },
+      "testing": {
+        "title": "Testing",
+        "description": "Quality assurance and performance optimization"
+      },
+      "delivery": {
+        "title": "Delivery",
+        "description": "Launch and support"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    }
   }
 }
