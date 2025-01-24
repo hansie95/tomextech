@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { DivideIcon as LucideIcon, ChevronRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface ServiceCardProps {
   icon: LucideIcon;
@@ -23,6 +24,8 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   isSelected,
   onClick
 }) => {
+  const { t } = useTranslation();
+
   return (
     <motion.div
       initial={{ y: 20, opacity: 0 }}
@@ -61,7 +64,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 
       {/* Learn More Button */}
       <button className="flex items-center text-tomex-teal hover:gap-2 transition-all group">
-        <span className="text-sm font-medium">Learn More</span>
+        <span className="text-sm font-medium">{t('services.learnMore')}</span>
         <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
       </button>
     </motion.div>

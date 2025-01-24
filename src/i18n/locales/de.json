@@ -21,6 +21,44 @@
   "services": {
     "title": "Unsere Dienstleistungen",
     "subtitle": "Stärkung Ihres Unternehmens durch maßgeschneiderte Technologielösungen",
+    "enterpriseSolutions": "Unternehmenslösungen",
+    "technologiesAndTools": "Technologien & Werkzeuge",
+    "requestConsultation": "Beratung anfragen",
+    "learnMore": "Mehr erfahren",
+    "features": {
+      "dataModeling": "Datenmodellierung",
+      "etlPipelines": "ETL-Pipelines",
+      "realTimeAnalytics": "Echtzeit-Analytik",
+      "dataWarehousing": "Data Warehousing",
+      "responsiveDesign": "Responsives Design",
+      "progressiveWebApps": "Progressive Web Apps",
+      "performanceOptimization": "Leistungsoptimierung",
+      "seoArchitecture": "SEO-freundliche Architektur",
+      "legacyAnalysis": "Legacy-System-Analyse",
+      "incrementalMigration": "Inkrementelle Migration",
+      "zeroDowntime": "Zero-Downtime-Deployment",
+      "performanceMonitoring": "Leistungsüberwachung",
+      "digitalStrategy": "Digitale Strategie",
+      "techAssessment": "Technologiebewertung",
+      "processOptimization": "Prozessoptimierung",
+      "teamTraining": "Team-Schulung",
+      "machineLearning": "Maschinelles Lernen",
+      "nlp": "Natürliche Sprachverarbeitung",
+      "computerVision": "Computer Vision",
+      "predictiveAnalytics": "Prädiktive Analytik",
+      "hardwareIntegration": "Hardware-Integration",
+      "networkOptimization": "Netzwerkoptimierung",
+      "infrastructurePlanning": "Infrastrukturplanung",
+      "maintenanceServices": "Wartungsservices",
+      "securityAudits": "Sicherheitsaudits",
+      "penetrationTesting": "Penetrationstests",
+      "complianceManagement": "Compliance-Management",
+      "securityTraining": "Sicherheitsschulung",
+      "cloudArchitecture": "Cloud-Architektur",
+      "serverlessSolutions": "Serverlose Lösungen",
+      "autoScaling": "Automatische Skalierung",
+      "costOptimization": "Kostenoptimierung"
+    },
     "webDev": {
       "title": "Webentwicklung",
       "description": "Maßgeschneiderte Weblösungen mit modernster Technologie"
@@ -58,6 +96,16 @@
     "title": "Warum wir?",
     "subtitle": "Erfahren Sie, warum führende Unternehmen uns bei der digitalen Transformation vertrauen",
     "learnMore": "Mehr erfahren",
+    "stats": {
+      "digitalProjects": "Digitale Projekte",
+      "clientSatisfaction": "Kundenzufriedenheit",
+      "supportAvailable": "Support verfügbar",
+      "projectCompletion": "Projektabschluss",
+      "aiSolutions": "KI-Lösungen",
+      "efficiencyIncrease": "Effizienzsteigerung",
+      "uptime": "Verfügbarkeit",
+      "responseTime": "Reaktionszeit"
+    },
     "digital": {
       "title": "Digitale Präsenz",
       "description": "Aufbau einer starken Online-Präsenz"
@@ -73,105 +121,6 @@
     "maintenance": {
       "title": "Wartung",
       "description": "Laufende Unterstützung und Wartung"
-    }
-  },
-  "contact": {
-    "title": "Kontakt",
-    "form": {
-      "name": "Name",
-      "email": "E-Mail",
-      "message": "Nachricht",
-      "submit": "Nachricht senden"
-    }
-  },
-  "footer": {
-    "company": "Unternehmen",
-    "about": "Über uns",
-    "careers": "Karriere",
-    "privacy": "Datenschutzrichtlinie",
-    "terms": "Nutzungsbedingungen",
-    "services": "Dienstleistungen",
-    "contact": {
-      "title": "Kontakt",
-      "address": "1234 Tech Straße, Innovationsstadt",
-      "email": "contact@tomextech.com",
-      "phone": "+49 (0) 123-4567"
-    },
-    "rights": "© 2024 TomexTech. Alle Rechte vorbehalten."
-  },
-  "howWeWork": {
-    "title": "Wie wir arbeiten",
-    "subtitle": "Transparente und effiziente Prozesse für erfolgreiche Projekte",
-    "steps": {
-      "meeting": {
-        "title": "Erstes Gespräch",
-        "description": "Bedarfsanalyse und Projektplanung"
-      },
-      "proposal": {
-        "title": "Angebotserstellung",
-        "description": "Detaillierte technische und finanzielle Planung"
-      },
-      "implementation": {
-        "title": "Umsetzung",
-        "description": "Agile Entwicklung und kontinuierliche Kommunikation"
-      },
-      "testing": {
-        "title": "Testen",
-        "description": "Qualitätssicherung und Leistungsoptimierung"
-      },
-      "delivery": {
-        "title": "Übergabe",
-        "description": "Produktivstart und Support"
-      }
-    }
-  },
-  "joinTeam": {
-    "title": "Werde Teil unseres Teams",
-    "subtitle": "Baue deine Karriere in einem innovativen Umfeld auf",
-    "position": {
-      "title": "Offene Positionen",
-      "type": "Vollzeit",
-      "location": "Hybrides Arbeiten"
-    },
-    "benefits": {
-      "title": "Vorteile",
-      "growth": {
-        "title": "Berufliche Entwicklung",
-        "description": "Kontinuierliche Lernmöglichkeiten"
-      },
-      "team": {
-        "title": "Großartiges Team",
-        "description": "Inspirierende Fachgemeinschaft"
-      },
-      "mentorship": {
-        "title": "Mentoring",
-        "description": "Individuelle fachliche Unterstützung"
-      },
-      "tools": {
-        "title": "Moderne Tools",
-        "description": "Nutzung neuester Technologien"
-      },
-      "balance": {
-        "title": "Work-Life-Balance",
-        "description": "Flexible Arbeitszeiten und Remote-Arbeit"
-      }
-    },
-    "techStack": {
-      "title": "Technologie-Stack",
-      "frontend": "Frontend",
-      "backend": "Backend",
-      "database": "Datenbank",
-      "tools": "Tools"
-    },
-    "apply": {
-      "button": "Jetzt bewerben",
-      "steps": {
-        "title": "Bewerbungsprozess",
-        "1": "Lebenslauf und Anschreiben einreichen",
-        "2": "Technisches Interview",
-        "3": "Persönliches Gespräch",
-        "4": "Angebot und Vertragsabschluss"
-      }
     }
   }
 }

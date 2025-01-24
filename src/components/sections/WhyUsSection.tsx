@@ -9,8 +9,8 @@ const features = [
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
     position: 'left',
     stats: [
-      { value: '250+', label: 'Digital Projects' },
-      { value: '98%', label: 'Client Satisfaction' }
+      { value: '250+', label: 'stats.digitalProjects' },
+      { value: '98%', label: 'stats.clientSatisfaction' }
     ]
   },
   {
@@ -18,8 +18,8 @@ const features = [
     image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80',
     position: 'right',
     stats: [
-      { value: '24/7', label: 'Support Available' },
-      { value: '100%', label: 'Project Completion' }
+      { value: '24/7', label: 'stats.supportAvailable' },
+      { value: '100%', label: 'stats.projectCompletion' }
     ]
   },
   {
@@ -27,8 +27,8 @@ const features = [
     image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80',
     position: 'left',
     stats: [
-      { value: '50+', label: 'AI Solutions' },
-      { value: '40%', label: 'Efficiency Increase' }
+      { value: '50+', label: 'stats.aiSolutions' },
+      { value: '40%', label: 'stats.efficiencyIncrease' }
     ]
   },
   {
@@ -36,8 +36,8 @@ const features = [
     image: 'https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1200&q=80',
     position: 'right',
     stats: [
-      { value: '99.9%', label: 'Uptime' },
-      { value: '1hr', label: 'Response Time' }
+      { value: '99.9%', label: 'stats.uptime' },
+      { value: '1hr', label: 'stats.responseTime' }
     ]
   }
 ];
@@ -68,7 +68,10 @@ const WhyUsSection = () => {
               description={t(`whyUs.${feature.key}.description`)}
               image={feature.image}
               position={feature.position}
-              stats={feature.stats}
+              stats={feature.stats.map(stat => ({
+                value: stat.value,
+                label: t(`whyUs.${stat.label}`)
+              }))}
               learnMoreText={t('whyUs.learnMore')}
             />
           ))}

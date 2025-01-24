@@ -11,10 +11,10 @@ const services = [
     Icon: Code2,
     technologies: ['React', 'Vue.js', 'Angular', 'Node.js'],
     features: [
-      'Responsive Design',
-      'Progressive Web Apps',
-      'Performance Optimization',
-      'SEO-friendly Architecture'
+      'responsiveDesign',
+      'progressiveWebApps',
+      'performanceOptimization',
+      'seoArchitecture'
     ]
   },
   {
@@ -22,10 +22,10 @@ const services = [
     Icon: RefreshCcw,
     technologies: ['Cloud Migration', 'Microservices', 'Docker', 'Kubernetes'],
     features: [
-      'Legacy System Analysis',
-      'Incremental Migration',
-      'Zero-downtime Deployment',
-      'Performance Monitoring'
+      'legacyAnalysis',
+      'incrementalMigration',
+      'zeroDowntime',
+      'performanceMonitoring'
     ]
   },
   {
@@ -33,10 +33,10 @@ const services = [
     Icon: Lightbulb,
     technologies: ['Agile', 'DevOps', 'ITIL', 'Lean'],
     features: [
-      'Digital Strategy',
-      'Technology Assessment',
-      'Process Optimization',
-      'Team Training'
+      'digitalStrategy',
+      'techAssessment',
+      'processOptimization',
+      'teamTraining'
     ]
   },
   {
@@ -44,10 +44,10 @@ const services = [
     Icon: Bot,
     technologies: ['TensorFlow', 'PyTorch', 'OpenAI', 'Azure AI'],
     features: [
-      'Machine Learning',
-      'Natural Language Processing',
-      'Computer Vision',
-      'Predictive Analytics'
+      'machineLearning',
+      'nlp',
+      'computerVision',
+      'predictiveAnalytics'
     ]
   },
   {
@@ -55,10 +55,10 @@ const services = [
     Icon: Server,
     technologies: ['AWS', 'Azure', 'GCP', 'Hybrid Cloud'],
     features: [
-      'Cloud Architecture',
-      'Serverless Solutions',
-      'Auto-scaling',
-      'Cost Optimization'
+      'cloudArchitecture',
+      'serverlessSolutions',
+      'autoScaling',
+      'costOptimization'
     ]
   },
   {
@@ -66,10 +66,10 @@ const services = [
     Icon: Shield,
     technologies: ['OAuth 2.0', 'SIEM', 'WAF', 'Zero Trust'],
     features: [
-      'Security Audits',
-      'Penetration Testing',
-      'Compliance Management',
-      'Security Training'
+      'securityAudits',
+      'penetrationTesting',
+      'complianceManagement',
+      'securityTraining'
     ]
   },
   {
@@ -77,10 +77,10 @@ const services = [
     Icon: Database,
     technologies: ['PostgreSQL', 'MongoDB', 'Elasticsearch', 'Redis'],
     features: [
-      'Data Modeling',
-      'ETL Pipelines',
-      'Real-time Analytics',
-      'Data Warehousing'
+      'dataModeling',
+      'etlPipelines',
+      'realTimeAnalytics',
+      'dataWarehousing'
     ]
   },
   {
@@ -88,10 +88,10 @@ const services = [
     Icon: Wrench,
     technologies: ['IoT', 'Edge Computing', 'Networking', 'Infrastructure'],
     features: [
-      'Hardware Integration',
-      'Network Optimization',
-      'Infrastructure Planning',
-      'Maintenance Services'
+      'hardwareIntegration',
+      'networkOptimization',
+      'infrastructurePlanning',
+      'maintenanceServices'
     ]
   }
 ];
@@ -127,7 +127,7 @@ const ServicesSection = () => {
               title={t(`services.${service.key}.title`)}
               description={t(`services.${service.key}.description`)}
               technologies={service.technologies}
-              features={service.features}
+              features={service.features.map(feature => t(`services.features.${feature}`))}
               delay={index * 0.1}
               isSelected={selectedService.key === service.key}
               onClick={() => setSelectedService(service)}

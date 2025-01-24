@@ -36,7 +36,7 @@ const ServiceShowcase: React.FC<ServiceShowcaseProps> = ({ service }) => {
                   {t(`services.${service.key}.title`)}
                 </h3>
                 <p className="text-tomex-teal font-medium">
-                  Enterprise Solutions
+                  {t('services.enterpriseSolutions')}
                 </p>
               </div>
             </div>
@@ -55,7 +55,7 @@ const ServiceShowcase: React.FC<ServiceShowcaseProps> = ({ service }) => {
                   <div className="w-6 h-6 bg-tomex-teal/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <Check className="w-4 h-4 text-tomex-teal" />
                   </div>
-                  <span className="text-gray-700">{feature}</span>
+                  <span className="text-gray-700">{t(`services.features.${feature}`)}</span>
                 </motion.div>
               ))}
             </div>
@@ -63,7 +63,7 @@ const ServiceShowcase: React.FC<ServiceShowcaseProps> = ({ service }) => {
 
           {/* Right Column - Technologies */}
           <div>
-            <h4 className="text-lg font-semibold mb-6">Technologies & Tools</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('services.technologiesAndTools')}</h4>
             <div className="grid grid-cols-2 gap-4">
               {service.technologies.map((tech, index) => (
                 <motion.div
@@ -83,7 +83,7 @@ const ServiceShowcase: React.FC<ServiceShowcaseProps> = ({ service }) => {
                 whileTap={{ scale: 0.98 }}
                 className="w-full bg-tomex-teal text-white py-3 rounded-full font-semibold hover:bg-tomex-teal/90 transition-colors"
               >
-                Request Consultation
+                {t('services.requestConsultation')}
               </motion.button>
             </div>
           </div>
