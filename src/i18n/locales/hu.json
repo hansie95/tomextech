@@ -167,9 +167,36 @@
     "services": "Szolgáltatások",
     "contact": {
       "title": "Kapcsolat",
-      "email": "contact@tomextech.com",
+      "email": "info@tomex.hu",
       "phone": "+36 20 331 4299"
     },
     "rights": "© 2024 TomexTech. Minden jog fenntartva."
+  },
+  "joinTeam": {
+    "title": "Csatlakozz csapatunkhoz",
+    "subtitle": "Építs karriert egy innovatív környezetben",
+    "benefits": {
+      "title": "Miért csatlakozz hozzánk",
+      "growth": {
+        "title": "Szakmai fejlődés",
+        "description": "Folyamatos tanulási lehetőségek és karrierút"
+      },
+      "team": {
+        "title": "Kiváló csapat",
+        "description": "Együttműködés tehetséges szakemberekkel"
+      },
+      "mentorship": {
+        "title": "Mentorálás",
+        "description": "Tanulás tapasztalt szakértőktől és vezetőktől"
+      },
+      "tools": {
+        "title": "Modern eszközök",
+        "description": "Hozzáférés a legújabb technológiákhoz és fejlesztői eszközökhöz"
+      },
+      "balance": {
+        "title": "Munka-magánélet egyensúly",
+        "description": "Rugalmas munkaidő és távmunka lehetőségek"
+      }
+    }
   }
 }
