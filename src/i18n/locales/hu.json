@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "services": "Szolgáltatások",
+    "whyUs": "Miért minket?",
+    "contact": "Kapcsolat",
+    "career": "Karrierlehetőségek"
+  },
+  "hero": {
+    "tagline": "Üzleti átalakulás technológiával",
+    "subtext": "Megbízható partnerünk a digitális átalakulásban és az IT kiválóságban",
+    "cta": "Kezdjük el",
+    "innovation": "A technológia jövőjének innovációja",
+    "stats": {
+      "experience": "Év tapasztalat",
+      "projects": "Befejezett projekt",
+      "team": "Csapattag",
+      "satisfaction": "Ügyfélelégedettség"
+    },
+    "explore": "Fedezze fel szolgáltatásainkat"
+  },
+  "services": {
+    "title": "Szolgáltatásaink",
+    "subtitle": "Vállalkozása fejlesztése élvonalbeli technológiai megoldásokkal, személyre szabva",
+    "webDev": {
+      "title": "Webfejlesztés",
+      "description": "Egyedi webes megoldások élvonalbeli technológiával"
+    },
+    "systemMod": {
+      "title": "Rendszermodernizáció",
+      "description": "Régi rendszerek korszerűsítése modern architektúrára"
+    },
+    "consulting": {
+      "title": "IT Tanácsadás",
+      "description": "Szakértői útmutatás a digitális átalakuláshoz"
+    },
+    "ai": {
+      "title": "AI Integráció",
+      "description": "AI megoldások implementálása a működés optimalizálásához"
+    },
+    "cloud": {
+      "title": "Felhő Szolgáltatások",
+      "description": "Skálázható felhő alapú megoldások"
+    },
+    "security": {
+      "title": "Kiberbiztonság",
+      "description": "Átfogó biztonsági megoldások és tanácsadás"
+    },
+    "data": {
+      "title": "Adatkezelés",
+      "description": "Adatelemzés és adatvezérelt megoldások"
+    },
+    "hardware": {
+      "title": "Hardver Támogatás",
+      "description": "Átfogó hardver karbantartás és támogatás"
+    }
+  },
+  "whyUs": {
+    "title": "Miért minket válasszon",
+    "subtitle": "Fedezze fel, miért bíznak bennünk vezető vállalatok a digitális átalakulásban",
+    "learnMore": "Tudjon meg többet",
+    "digital": {
+      "title": "Digitális jelenlét",
+      "description": "Erős online jelenlét kialakítása"
+    },
+    "complete": {
+      "title": "Teljes megoldások",
+      "description": "Végponttól végpontig IT szolgáltatások"
+    },
+    "ai": {
+      "title": "AI Támogatás",
+      "description": "Fejlett AI-alapú megoldások"
+    },
+    "maintenance": {
+      "title": "Karbantartás",
+      "description": "Folyamatos támogatás és karbantartás"
+    }
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "form": {
+      "name": "Név",
+      "email": "Email",
+      "message": "Üzenet",
+      "submit": "Üzenet küldése"
+    }
+  },
+  "footer": {
+    "company": "Cég",
+    "about": "Rólunk",
+    "careers": "Karrierlehetőségek",
+    "privacy": "Adatvédelmi irányelvek",
+    "terms": "Felhasználási feltételek",
+    "services": "Szolgáltatások",
+    "contact": {
+      "title": "Kapcsolat",
+      "address": "Magyarország, 1107 Budapest Száva utca 4/b",
+      "email": "info@tomex.hu",
+      "phone": "+36 20 331 4299"
+    },
+    "rights": "© 2025 TomexTech. Minden jog fenntartva."
+  },
+  "howWeWork": {
+    "title": "Hogyan dolgozunk",
+    "subtitle": "Átlátható és hatékony folyamatok a sikeres projektekért",
+    "steps": {
+      "meeting": {
+        "title": "Kezdeti megbeszélés",
+        "description": "Igények felmérése és projekt tervezés"
+      },
+      "proposal": {
+        "title": "Ajánlat készítés",
+        "description": "Részletes technikai és pénzügyi tervezés"
+      },
+      "implementation": {
+        "title": "Megvalósítás",
+        "description": "Agilis fejlesztés és folyamatos kommunikáció"
+      },
+      "testing": {
+        "title": "Tesztelés",
+        "description": "Minőségbiztosítás és teljesítmény optimalizálás"
+      },
+      "delivery": {
+        "title": "Átadás",
+        "description": "Éles indítás és támogatás"
+      }
+    }
+  },
+  "joinTeam": {
+    "title": "Csatlakozz csapatunkhoz",
+    "subtitle": "Építs karriert egy innovatív környezetben",
+    "position": {
+      "title": "Nyitott pozíciók",
+      "type": "Teljes munkaidő",
+      "location": "Hibrid munkavégzés"
+    },
+    "benefits": {
+      "title": "Juttatások",
+      "growth": {
+        "title": "Szakmai fejlődés",
+        "description": "Folyamatos tanulási lehetőségek"
+      },
+      "team": {
+        "title": "Remek csapat",
+        "description": "Inspiráló szakmai közösség"
+      },
+      "mentorship": {
+        "title": "Mentorálás",
+        "description": "Személyre szabott szakmai támogatás"
+      },
+      "tools": {
+        "title": "Modern eszközök",
+        "description": "Legújabb technológiák használata"
+      },
+      "balance": {
+        "title": "Munka-magánélet egyensúly",
+        "description": "Rugalmas munkaidő és távmunka"
+      }
+    },
+    "techStack": {
+      "title": "Technológiai stack",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Adatbázis",
+      "tools": "Eszközök"
+    },
+    "apply": {
+      "button": "Jelentkezés",
+      "steps": {
+        "title": "Jelentkezési folyamat",
+        "1": "Önéletrajz és motivációs levél beküldése",
+        "2": "Technikai interjú",
+        "3": "Személyes beszélgetés",
+        "4": "Ajánlat és szerződéskötés"
+      }
+    }
+  }
+}

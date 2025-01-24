@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "services": "Dienstleistungen",
+    "whyUs": "Warum wir?",
+    "contact": "Kontakt",
+    "career": "Karriere"
+  },
+  "hero": {
+    "tagline": "Geschäftstransformation durch Technologie",
+    "subtext": "Ihr vertrauenswürdiger Partner für digitale Transformation und IT-Exzellenz",
+    "cta": "Loslegen",
+    "innovation": "Innovation für die Zukunft der Technologie",
+    "stats": {
+      "experience": "Jahre Erfahrung",
+      "projects": "Abgeschlossene Projekte",
+      "team": "Teammitglieder",
+      "satisfaction": "Kundenzufriedenheit"
+    },
+    "explore": "Entdecken Sie unsere Dienstleistungen"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Stärkung Ihres Unternehmens durch maßgeschneiderte Technologielösungen",
+    "webDev": {
+      "title": "Webentwicklung",
+      "description": "Maßgeschneiderte Weblösungen mit modernster Technologie"
+    },
+    "systemMod": {
+      "title": "Systemmodernisierung",
+      "description": "Aufrüstung von Legacy-Systemen auf moderne Architektur"
+    },
+    "consulting": {
+      "title": "IT-Beratung",
+      "description": "Expertenberatung für Ihre digitale Transformation"
+    },
+    "ai": {
+      "title": "KI-Integration",
+      "description": "Implementierung von KI-Lösungen zur Betriebsoptimierung"
+    },
+    "cloud": {
+      "title": "Cloud-Services",
+      "description": "Skalierbare Cloud-basierte Lösungen"
+    },
+    "security": {
+      "title": "Cybersicherheit",
+      "description": "Umfassende Sicherheitslösungen und Beratung"
+    },
+    "data": {
+      "title": "Datenmanagement",
+      "description": "Datenanalyse und datengesteuerte Lösungen"
+    },
+    "hardware": {
+      "title": "Hardware-Support",
+      "description": "Umfassende Hardware-Wartung und Unterstützung"
+    }
+  },
+  "whyUs": {
+    "title": "Warum wir?",
+    "subtitle": "Erfahren Sie, warum führende Unternehmen uns bei der digitalen Transformation vertrauen",
+    "learnMore": "Mehr erfahren",
+    "digital": {
+      "title": "Digitale Präsenz",
+      "description": "Aufbau einer starken Online-Präsenz"
+    },
+    "complete": {
+      "title": "Komplettlösungen",
+      "description": "End-to-End IT-Dienstleistungen"
+    },
+    "ai": {
+      "title": "KI-Unterstützung",
+      "description": "Fortschrittliche KI-gestützte Lösungen"
+    },
+    "maintenance": {
+      "title": "Wartung",
+      "description": "Laufende Unterstützung und Wartung"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Nachricht senden"
+    }
+  },
+  "footer": {
+    "company": "Unternehmen",
+    "about": "Über uns",
+    "careers": "Karriere",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "services": "Dienstleistungen",
+    "contact": {
+      "title": "Kontakt",
+      "address": "1234 Tech Straße, Innovationsstadt",
+      "email": "contact@tomextech.com",
+      "phone": "+49 (0) 123-4567"
+    },
+    "rights": "© 2024 TomexTech. Alle Rechte vorbehalten."
+  },
+  "howWeWork": {
+    "title": "Wie wir arbeiten",
+    "subtitle": "Transparente und effiziente Prozesse für erfolgreiche Projekte",
+    "steps": {
+      "meeting": {
+        "title": "Erstes Gespräch",
+        "description": "Bedarfsanalyse und Projektplanung"
+      },
+      "proposal": {
+        "title": "Angebotserstellung",
+        "description": "Detaillierte technische und finanzielle Planung"
+      },
+      "implementation": {
+        "title": "Umsetzung",
+        "description": "Agile Entwicklung und kontinuierliche Kommunikation"
+      },
+      "testing": {
+        "title": "Testen",
+        "description": "Qualitätssicherung und Leistungsoptimierung"
+      },
+      "delivery": {
+        "title": "Übergabe",
+        "description": "Produktivstart und Support"
+      }
+    }
+  },
+  "joinTeam": {
+    "title": "Werde Teil unseres Teams",
+    "subtitle": "Baue deine Karriere in einem innovativen Umfeld auf",
+    "position": {
+      "title": "Offene Positionen",
+      "type": "Vollzeit",
+      "location": "Hybrides Arbeiten"
+    },
+    "benefits": {
+      "title": "Vorteile",
+      "growth": {
+        "title": "Berufliche Entwicklung",
+        "description": "Kontinuierliche Lernmöglichkeiten"
+      },
+      "team": {
+        "title": "Großartiges Team",
+        "description": "Inspirierende Fachgemeinschaft"
+      },
+      "mentorship": {
+        "title": "Mentoring",
+        "description": "Individuelle fachliche Unterstützung"
+      },
+      "tools": {
+        "title": "Moderne Tools",
+        "description": "Nutzung neuester Technologien"
+      },
+      "balance": {
+        "title": "Work-Life-Balance",
+        "description": "Flexible Arbeitszeiten und Remote-Arbeit"
+      }
+    },
+    "techStack": {
+      "title": "Technologie-Stack",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Datenbank",
+      "tools": "Tools"
+    },
+    "apply": {
+      "button": "Jetzt bewerben",
+      "steps": {
+        "title": "Bewerbungsprozess",
+        "1": "Lebenslauf und Anschreiben einreichen",
+        "2": "Technisches Interview",
+        "3": "Persönliches Gespräch",
+        "4": "Angebot und Vertragsabschluss"
+      }
+    }
+  }
+}
