@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { GraduationCap, Users2, BrainCircuit, Laptop, Coffee } from 'lucide-react';
@@ -19,7 +18,7 @@ const Benefits = () => {
       initial={{ x: 50, opacity: 0 }}
       whileInView={{ x: 0, opacity: 1 }}
       viewport={{ once: true }}
-      className="bg-white rounded-xl shadow-lg p-8 border border-gray-100"
+      className="bg-white rounded-xl shadow-lg p-8 border border-gray-100 overflow-hidden"
     >
       <h3 className="text-xl font-bold mb-6">{t('joinTeam.benefits.title')}</h3>
       <div className="grid gap-6">

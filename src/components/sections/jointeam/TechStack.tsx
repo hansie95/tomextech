@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Code2, Terminal, Database, Workflow } from 'lucide-react';
@@ -35,7 +34,7 @@ const TechStack = () => {
       whileInView={{ x: 0, opacity: 1 }}
       viewport={{ once: true }}
       transition={{ delay: 0.1 }}
-      className="bg-white rounded-xl shadow-lg p-8 border border-gray-100"
+      className="bg-white rounded-xl shadow-lg p-8 border border-gray-100 overflow-hidden"
     >
       <h3 className="text-xl font-bold mb-6">{t('joinTeam.techStack.title')}</h3>
       <div className="grid grid-cols-2 gap-6">

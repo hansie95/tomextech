@@ -1,10 +1,9 @@
-import React, { useState, useMemo, useRef } from 'react';
+import { useState, useMemo, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
-import { Search, MapPin, Building2, Calendar, ArrowRight, Rocket, Code2, Terminal, Database, Workflow, ChevronDown } from 'lucide-react';
+import { Search, Rocket, Code2, Terminal, Database, Workflow, ChevronDown } from 'lucide-react';
 import { jobs, departments, locations } from '../data/jobs';
-import type { Job } from '../types/jobs';
 import JobCard from '../components/jobs/JobCard';
 import Benefits from '../components/sections/jointeam/Benefits';
 import Footer from '../components/Footer';
@@ -82,7 +81,7 @@ const Jobs = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen bg-gray-50 pt-20"
+      className="min-h-screen bg-gray-50 pt-20 overflow-x-hidden w-full"
     >
       <Helmet>
         <title>Career Opportunities | TomexTech</title>
@@ -90,8 +89,8 @@ const Jobs = () => {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-20">
-        <div className="container mx-auto px-4">
+      <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-20 overflow-hidden">
+        <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -137,7 +136,7 @@ const Jobs = () => {
       </section>
 
       {/* Open Positions Section */}
-      <section className="py-16">
+      <section className="py-16 overflow-hidden">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ y: 20, opacity: 0 }}
@@ -206,7 +205,7 @@ const Jobs = () => {
       </section>
 
       {/* Tech Stack Section */}
-      <section ref={techStackRef} className="py-20 bg-white">
+      <section ref={techStackRef} className="py-20 bg-white overflow-hidden">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ y: 20, opacity: 0 }}
@@ -257,7 +256,7 @@ const Jobs = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white overflow-hidden">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ y: 20, opacity: 0 }}
