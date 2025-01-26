@@ -1,6 +1,4 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
 import Footer from '../components/Footer';
 import HeroSection from '../components/sections/HeroSection';
@@ -10,14 +8,13 @@ import WhyUsSection from '../components/sections/WhyUsSection';
 import ContactSection from '../components/sections/ContactSection';
 
 const Home = () => {
-  const { t } = useTranslation();
 
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="pt-16"
+      className="pt-16 overflow-hidden w-full"
     >
       <Helmet>
         <title>TomexTech - Digital Transformation Solutions</title>

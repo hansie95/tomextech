@@ -108,7 +108,7 @@ const HowWeWorkSection = () => {
   };
 
   return (
-    <section className="py-8 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
+    <section className="py-8 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white overflow-hidden">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ y: 20, opacity: 0 }}
@@ -147,7 +147,7 @@ const HowWeWorkSection = () => {
         </div>
 
         {/* Process Details */}
-        <div ref={detailsRef}>
+        <div ref={detailsRef} className="relative">
           <ProcessDetails step={selectedStep} />
         </div>
 
@@ -163,7 +163,7 @@ const HowWeWorkSection = () => {
             whileTap={{ scale: 0.98 }}
             className="inline-flex items-center gap-2 bg-tomex-teal text-white px-6 py-2 rounded-full font-semibold hover:bg-white hover:text-tomex-teal transition-colors text-sm"
           >
-            Start Your Project
+            {t('howWeWork.startProject')}
             <ArrowRight className="w-4 h-4" />
           </motion.button>
         </motion.div>

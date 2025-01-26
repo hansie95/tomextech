@@ -18,6 +18,37 @@
     },
     "explore": "Entdecken Sie unsere Dienstleistungen"
   },
+  "career": {
+    "hero": {
+      "title": "Werde Teil unseres wachsenden Teams",
+      "subtitle": "Sei Teil von etwas Außergewöhnlichem. Wir suchen talentierte Menschen, die sich für Technologie und Innovation begeistern.",
+      "features": {
+        "remote": "Remote-First Kultur",
+        "innovation": "Innovative Projekte",
+        "growth": "Karriereentwicklung",
+        "collaboration": "Kollaborative Umgebung"
+      }
+    },
+    "sections": {
+      "techStack": {
+        "action": "Technologie-Stack anzeigen",
+        "title": "Unser Technologie-Stack",
+        "subtitle": "Wir nutzen modernste Technologien, um erstaunliche Produkte zu entwickeln"
+      },
+      "positions": {
+        "title": "Offene Stellen",
+        "subtitle": "Finde deine perfekte Position"
+      },
+      "benefits": {
+        "title": "Warum zu uns?",
+        "subtitle": "Entdecke die Vorteile, Teil unseres Teams zu sein"
+      }
+    },
+    "levels": {
+      "advanced": "Fortgeschritten",
+      "intermediate": "Mittelstufe"
+    }
+  },
   "services": {
     "title": "Unsere Dienstleistungen",
     "subtitle": "Stärkung Ihres Unternehmens durch maßgeschneiderte Technologielösungen",
@@ -126,26 +157,88 @@
   "howWeWork": {
     "title": "Wie wir arbeiten",
     "subtitle": "Transparente und effiziente Prozesse für erfolgreiche Projekte",
+    "startProject": "Projekt starten",
+    "keyActivities": "Hauptaktivitäten",
+    "deliverables": "Ergebnisse",
     "steps": {
       "meeting": {
         "title": "Erstes Gespräch",
-        "description": "Bedarfsanalyse und Projektplanung"
+        "description": "Bedarfsanalyse und Projektplanung",
+        "activities": [
+          "Erstberatung",
+          "Anforderungserhebung",
+          "Projektumfang definieren",
+          "Budget-Besprechung"
+        ],
+        "deliverables": [
+          "Projektbeschreibung",
+          "Erster Zeitplan",
+          "Budgetschätzung"
+        ]
       },
       "proposal": {
         "title": "Angebotserstellung",
-        "description": "Detaillierte technische und finanzielle Planung"
+        "description": "Detaillierte technische und finanzielle Planung",
+        "activities": [
+          "Technische Analyse",
+          "Lösungsarchitektur",
+          "Ressourcenplanung",
+          "Risikobewertung"
+        ],
+        "deliverables": [
+          "Detailliertes Angebot",
+          "Technische Spezifikationen",
+          "Projekt-Roadmap",
+          "Kostenaufschlüsselung"
+        ]
       },
       "implementation": {
         "title": "Umsetzung",
-        "description": "Agile Entwicklung und kontinuierliche Kommunikation"
+        "description": "Agile Entwicklung und kontinuierliche Kommunikation",
+        "activities": [
+          "Agile Entwicklung",
+          "Regelmäßige Updates",
+          "Fortschrittsverfolgung",
+          "Kunden-Feedback"
+        ],
+        "deliverables": [
+          "Sprint-Ergebnisse",
+          "Fortschrittsberichte",
+          "Funktionsfähige Prototypen",
+          "Code-Dokumentation"
+        ]
       },
       "testing": {
         "title": "Testen",
-        "description": "Qualitätssicherung und Leistungsoptimierung"
+        "description": "Qualitätssicherung und Leistungsoptimierung",
+        "activities": [
+          "Qualitätssicherung",
+          "Leistungstests",
+          "Sicherheitsaudits",
+          "Benutzerakzeptanztests"
+        ],
+        "deliverables": [
+          "Testberichte",
+          "Leistungskennzahlen",
+          "Sicherheitsbewertung",
+          "Fehlerbehebungen"
+        ]
       },
       "delivery": {
         "title": "Übergabe",
-        "description": "Produktivstart und Support"
+        "description": "Produktivstart und Support",
+        "activities": [
+          "Deployment-Vorbereitung",
+          "Abschlusstests",
+          "Wissenstransfer",
+          "Kundenschulung"
+        ],
+        "deliverables": [
+          "Produktiv-Deployment",
+          "Dokumentation",
+          "Schulungsmaterialien",
+          "Support-Plan"
+        ]
       }
     }
   },
@@ -167,10 +260,12 @@
     "services": "Dienstleistungen",
     "contact": {
       "title": "Kontakt",
-      "email": "info@tomex.hu",
-      "phone": "+36 20 331 4299"
+      "email": "contact@tomextech.com",
+      "phone": "+49 (0) 123-4567",
+      "location": "Budapest, Szava utca 4/b"
     },
-    "rights": "© 2025 TomexTech. Alle Rechte vorbehalten."
+    "location": "Standort",
+    "rights": "© 2024 TomexTech. Alle Rechte vorbehalten."
   },
   "joinTeam": {
     "title": "Werde Teil unseres Teams",

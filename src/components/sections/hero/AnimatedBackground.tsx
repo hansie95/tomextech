@@ -9,7 +9,7 @@ const AnimatedBackground = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 overflow-hidden"
         style={{
           background: `
             linear-gradient(
@@ -24,7 +24,7 @@ const AnimatedBackground = () => {
 
       {/* Grid Pattern */}
       <div 
-        className="absolute inset-0 z-0 opacity-10"
+        className="absolute inset-0 z-0 opacity-10 overflow-hidden"
         style={{
           backgroundImage: `
             linear-gradient(rgba(95, 194, 193, 0.2) 1px, transparent 1px),
@@ -60,32 +60,34 @@ const AnimatedBackground = () => {
       </div>
 
       {/* Floating Tech Elements */}
-      {[...Array(15)].map((_, i) => (
-        <motion.div
-          key={i}
-          className="absolute rounded-lg bg-tomex-teal/10 backdrop-blur-sm"
-          style={{
-            width: 20 + Math.random() * 60,
-            height: 20 + Math.random() * 60,
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`
-          }}
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{
-            opacity: [0.3, 0.6, 0.3],
-            scale: [1, 1.2, 1],
-            rotate: [0, 90, 0]
-          }}
-          transition={{
-            duration: 10 + Math.random() * 10,
-            repeat: Infinity,
-            delay: Math.random() * 5
-          }}
-        />
-      ))}
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        {[...Array(15)].map((_, i) => (
+          <motion.div
+            key={i}
+            className="absolute rounded-lg bg-tomex-teal/10 backdrop-blur-sm"
+            style={{
+              width: 20 + Math.random() * 60,
+              height: 20 + Math.random() * 60,
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`
+            }}
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{
+              opacity: [0.3, 0.6, 0.3],
+              scale: [1, 1.2, 1],
+              rotate: [0, 90, 0]
+            }}
+            transition={{
+              duration: 10 + Math.random() * 10,
+              repeat: Infinity,
+              delay: Math.random() * 5
+            }}
+          />
+        ))}
+      </div>
 
       {/* Digital Circuit Lines */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 overflow-hidden">
         {[...Array(8)].map((_, i) => (
           <motion.div
             key={i}
@@ -111,32 +113,34 @@ const AnimatedBackground = () => {
       </div>
 
       {/* Glowing Orbs */}
-      {[...Array(20)].map((_, i) => (
-        <motion.div
-          key={i}
-          className="absolute rounded-full bg-tomex-teal/20"
-          style={{
-            width: 2 + Math.random() * 4,
-            height: 2 + Math.random() * 4,
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
-            filter: 'blur(1px)'
-          }}
-          animate={{
-            opacity: [0, 1, 0],
-            scale: [1, 1.5, 1]
-          }}
-          transition={{
-            duration: 2 + Math.random() * 2,
-            repeat: Infinity,
-            delay: Math.random() * 2
-          }}
-        />
-      ))}
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        {[...Array(20)].map((_, i) => (
+          <motion.div
+            key={i}
+            className="absolute rounded-full bg-tomex-teal/20"
+            style={{
+              width: 2 + Math.random() * 4,
+              height: 2 + Math.random() * 4,
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              filter: 'blur(1px)'
+            }}
+            animate={{
+              opacity: [0, 1, 0],
+              scale: [1, 1.5, 1]
+            }}
+            transition={{
+              duration: 2 + Math.random() * 2,
+              repeat: Infinity,
+              delay: Math.random() * 2
+            }}
+          />
+        ))}
+      </div>
 
       {/* Gradient Overlay */}
       <div 
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 overflow-hidden"
         style={{
           background: 'radial-gradient(circle at 50% 50%, transparent 0%, rgba(0, 10, 30, 0.5) 100%)'
         }}

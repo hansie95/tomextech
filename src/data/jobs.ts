@@ -40,8 +40,8 @@ export const jobs: Job[] = [
       'Regular team events and activities',
       'Personal development budget'
     ],
-    postedDate: '2025-01-15',
-    deadline: '2025-02-15',
+    postedDate: '2024-03-20',
+    deadline: '2024-04-20',
   },
   {
     id: 'senior-frontend-dev',
@@ -71,10 +71,41 @@ export const jobs: Job[] = [
       'Professional development budget',
       'Flexible working hours',
     ],
-    postedDate: '2025-01-15',
-    deadline: '2025-02-15',
+    postedDate: '2024-03-15',
+    deadline: '2024-04-15',
   },
+  {
+    id: 'ui-ux-designer',
+    title: 'UI/UX Designer',
+    department: 'Design',
+    location: 'Remote',
+    shortDescription: 'Create beautiful and intuitive user interfaces for our web and mobile applications.',
+    description: 'We are seeking a talented UI/UX Designer to join our design team. You will be responsible for creating user-centered designs for our products, conducting user research, and collaborating with developers.',
+    requirements: [
+      '3+ years of UI/UX design experience',
+      'Proficiency in Figma and design tools',
+      'Understanding of user-centered design principles',
+      'Experience with design systems',
+      'Knowledge of web accessibility guidelines',
+    ],
+    responsibilities: [
+      'Create user-centered designs for web and mobile applications',
+      'Conduct user research and usability testing',
+      'Maintain and evolve our design system',
+      'Collaborate with developers and stakeholders',
+      'Create interactive prototypes',
+    ],
+    benefits: [
+      'Competitive salary',
+      'Full remote work',
+      'Health insurance',
+      'Design conference budget',
+      'Flexible schedule',
+    ],
+    postedDate: '2024-03-10',
+    deadline: '2024-04-10',
+  }
 ];
 
-export const departments = ['Engineering', 'Design'];
+export const departments = ['Engineering', 'Design', 'Product', 'Marketing', 'Sales'];
 export const locations = ['Remote', 'Hybrid', 'On-site'];

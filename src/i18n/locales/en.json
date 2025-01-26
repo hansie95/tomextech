@@ -18,6 +18,37 @@
     },
     "explore": "Explore Our Services"
   },
+  "career": {
+    "hero": {
+      "title": "Join Our Growing Team",
+      "subtitle": "Be part of something extraordinary. We're looking for talented individuals who are passionate about technology and innovation.",
+      "features": {
+        "remote": "Remote-First Culture",
+        "innovation": "Innovative Projects",
+        "growth": "Career Growth",
+        "collaboration": "Collaborative Environment"
+      }
+    },
+    "sections": {
+      "techStack": {
+        "action": "View Tech Stack",
+        "title": "Our Technology Stack",
+        "subtitle": "We use cutting-edge technologies to build amazing products"
+      },
+      "positions": {
+        "title": "Open Positions",
+        "subtitle": "Find your perfect role"
+      },
+      "benefits": {
+        "title": "Why Join Us?",
+        "subtitle": "Discover the benefits of being part of our team"
+      }
+    },
+    "levels": {
+      "advanced": "Advanced",
+      "intermediate": "Intermediate"
+    }
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "Empowering your business with cutting-edge technology solutions tailored to your needs",
@@ -126,26 +157,88 @@
   "howWeWork": {
     "title": "How We Work",
     "subtitle": "Transparent and efficient processes for successful projects",
+    "startProject": "Start Your Project",
+    "keyActivities": "Key Activities",
+    "deliverables": "Deliverables",
     "steps": {
       "meeting": {
         "title": "Initial Meeting",
-        "description": "Requirements gathering and project planning"
+        "description": "Requirements gathering and project planning",
+        "activities": [
+          "Initial consultation",
+          "Requirements gathering",
+          "Project scope definition",
+          "Budget discussion"
+        ],
+        "deliverables": [
+          "Project brief",
+          "Initial timeline",
+          "Budget estimate"
+        ]
       },
       "proposal": {
         "title": "Proposal Creation",
-        "description": "Detailed technical and financial planning"
+        "description": "Detailed technical and financial planning",
+        "activities": [
+          "Technical analysis",
+          "Solution architecture",
+          "Resource planning",
+          "Risk assessment"
+        ],
+        "deliverables": [
+          "Detailed proposal",
+          "Technical specifications",
+          "Project roadmap",
+          "Cost breakdown"
+        ]
       },
       "implementation": {
         "title": "Implementation",
-        "description": "Agile development and continuous communication"
+        "description": "Agile development and continuous communication",
+        "activities": [
+          "Agile development",
+          "Regular updates",
+          "Progress tracking",
+          "Client feedback"
+        ],
+        "deliverables": [
+          "Sprint deliverables",
+          "Progress reports",
+          "Working prototypes",
+          "Code documentation"
+        ]
       },
       "testing": {
         "title": "Testing",
-        "description": "Quality assurance and performance optimization"
+        "description": "Quality assurance and performance optimization",
+        "activities": [
+          "Quality assurance",
+          "Performance testing",
+          "Security audits",
+          "User acceptance testing"
+        ],
+        "deliverables": [
+          "Test reports",
+          "Performance metrics",
+          "Security assessment",
+          "Bug fixes"
+        ]
       },
       "delivery": {
         "title": "Delivery",
-        "description": "Launch and support"
+        "description": "Launch and support",
+        "activities": [
+          "Deployment preparation",
+          "Final testing",
+          "Knowledge transfer",
+          "Client training"
+        ],
+        "deliverables": [
+          "Production deployment",
+          "Documentation",
+          "Training materials",
+          "Support plan"
+        ]
       }
     }
   },
@@ -167,10 +260,12 @@
     "services": "Services",
     "contact": {
       "title": "Contact",
-      "email": "info@tomex.hu",
-      "phone": "+36 20 331 4299"
+      "email": "contact@tomextech.com",
+      "phone": "+1 (555) 123-4567",
+      "location": "Budapest, Szava utca 4/b"
     },
-    "rights": "© 2025 TomexTech. All rights reserved."
+    "location": "Location",
+    "rights": "© 2024 TomexTech. All rights reserved."
   },
   "joinTeam": {
     "title": "Join Our Team",

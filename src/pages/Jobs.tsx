@@ -105,22 +105,22 @@ const Jobs = () => {
             >
               <Rocket className="w-10 h-10 text-tomex-teal" />
             </motion.div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Join Our Growing Team</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('career.hero.title')}</h1>
             <p className="text-xl text-gray-300 mb-8">
-              Be part of something extraordinary. We're looking for talented individuals who are passionate about technology and innovation.
+              {t('career.hero.subtitle')}
             </p>
             <div className="flex flex-wrap gap-4 justify-center text-sm mb-12">
               <div className="bg-gray-800/50 px-4 py-2 rounded-full">
-                🌍 Remote-First Culture
+                🌍 {t('career.hero.features.remote')}
               </div>
               <div className="bg-gray-800/50 px-4 py-2 rounded-full">
-                💡 Innovative Projects
+                💡 {t('career.hero.features.innovation')}
               </div>
               <div className="bg-gray-800/50 px-4 py-2 rounded-full">
-                🚀 Career Growth
+                🚀 {t('career.hero.features.growth')}
               </div>
               <div className="bg-gray-800/50 px-4 py-2 rounded-full">
-                🤝 Collaborative Environment
+                🤝 {t('career.hero.features.collaboration')}
               </div>
             </div>
             <motion.button
@@ -129,7 +129,7 @@ const Jobs = () => {
               whileTap={{ y: 0 }}
               className="inline-flex items-center gap-2 bg-tomex-teal text-white px-8 py-3 rounded-full hover:bg-tomex-teal/90 transition-colors"
             >
-              View Tech Stack
+              {t('career.sections.techStack.action')}
               <ChevronDown className="w-5 h-5 animate-bounce" />
             </motion.button>
           </motion.div>
@@ -145,8 +145,8 @@ const Jobs = () => {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold mb-4">Open Positions</h2>
-            <p className="text-xl text-gray-600">Find your perfect role</p>
+            <h2 className="text-3xl font-bold mb-4">{t('career.sections.positions.title')}</h2>
+            <p className="text-xl text-gray-600">{t('career.sections.positions.subtitle')}</p>
           </motion.div>
 
           {/* Filters */}
@@ -214,9 +214,9 @@ const Jobs = () => {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold mb-4">Our Technology Stack</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('career.sections.techStack.title')}</h2>
             <p className="text-xl text-gray-600">
-              We use cutting-edge technologies to build amazing products
+              {t('career.sections.techStack.subtitle')}
             </p>
           </motion.div>
 
@@ -245,7 +245,7 @@ const Jobs = () => {
                           ? 'bg-tomex-teal/10 text-tomex-teal' 
                           : 'bg-gray-100 text-gray-600'
                       }`}>
-                        {tech.level}
+                        {t(`career.levels.${tech.level.toLowerCase()}`)}
                       </span>
                     </div>
                   ))}
@@ -265,8 +265,8 @@ const Jobs = () => {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold mb-4">Why Join Us?</h2>
-            <p className="text-xl text-gray-600">Discover the benefits of being part of our team</p>
+            <h2 className="text-3xl font-bold mb-4">{t('career.sections.benefits.title')}</h2>
+            <p className="text-xl text-gray-600">{t('career.sections.benefits.subtitle')}</p>
           </motion.div>
           <Benefits />
         </div>

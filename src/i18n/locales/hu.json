@@ -18,6 +18,37 @@
     },
     "explore": "Fedezze fel szolgáltatásainkat"
   },
+  "career": {
+    "hero": {
+      "title": "Csatlakozz növekvő csapatunkhoz",
+      "subtitle": "Légy része valami rendkívülinek. Tehetséges szakembereket keresünk, akik szenvedélyesen érdeklődnek a technológia és az innováció iránt.",
+      "features": {
+        "remote": "Távmunka-központú kultúra",
+        "innovation": "Innovatív projektek",
+        "growth": "Karrierfejlődés",
+        "collaboration": "Együttműködő környezet"
+      }
+    },
+    "sections": {
+      "techStack": {
+        "action": "Technológiai stack megtekintése",
+        "title": "Technológiai stackünk",
+        "subtitle": "Élvonalbeli technológiákat használunk kiváló termékek létrehozásához"
+      },
+      "positions": {
+        "title": "Nyitott pozíciók",
+        "subtitle": "Találd meg az ideális szerepet"
+      },
+      "benefits": {
+        "title": "Miért minket válassz?",
+        "subtitle": "Fedezd fel a csapatunk tagjává válás előnyeit"
+      }
+    },
+    "levels": {
+      "advanced": "Haladó",
+      "intermediate": "Középszintű"
+    }
+  },
   "services": {
     "title": "Szolgáltatásaink",
     "subtitle": "Vállalkozása fejlesztése élvonalbeli technológiai megoldásokkal, személyre szabva",
@@ -126,26 +157,88 @@
   "howWeWork": {
     "title": "Hogyan dolgozunk",
     "subtitle": "Átlátható és hatékony folyamatok a sikeres projektekért",
+    "startProject": "Projekt indítása",
+    "keyActivities": "Főbb tevékenységek",
+    "deliverables": "Eredmények",
     "steps": {
       "meeting": {
         "title": "Kezdeti megbeszélés",
-        "description": "Igények felmérése és projekt tervezés"
+        "description": "Igények felmérése és projekt tervezés",
+        "activities": [
+          "Kezdeti konzultáció",
+          "Követelmények felmérése",
+          "Projekt hatókör meghatározása",
+          "Költségvetés megbeszélése"
+        ],
+        "deliverables": [
+          "Projekt összefoglaló",
+          "Kezdeti ütemterv",
+          "Költségbecslés"
+        ]
       },
       "proposal": {
         "title": "Ajánlat készítés",
-        "description": "Részletes technikai és pénzügyi tervezés"
+        "description": "Részletes technikai és pénzügyi tervezés",
+        "activities": [
+          "Technikai elemzés",
+          "Megoldás architektúra",
+          "Erőforrás tervezés",
+          "Kockázatelemzés"
+        ],
+        "deliverables": [
+          "Részletes ajánlat",
+          "Technikai specifikáció",
+          "Projekt ütemterv",
+          "Költségbontás"
+        ]
       },
       "implementation": {
         "title": "Megvalósítás",
-        "description": "Agilis fejlesztés és folyamatos kommunikáció"
+        "description": "Agilis fejlesztés és folyamatos kommunikáció",
+        "activities": [
+          "Agilis fejlesztés",
+          "Rendszeres frissítések",
+          "Haladás követése",
+          "Ügyféltől visszajelzés"
+        ],
+        "deliverables": [
+          "Sprint eredmények",
+          "Haladási jelentések",
+          "Működő prototípusok",
+          "Kód dokumentáció"
+        ]
       },
       "testing": {
         "title": "Tesztelés",
-        "description": "Minőségbiztosítás és teljesítmény optimalizálás"
+        "description": "Minőségbiztosítás és teljesítmény optimalizálás",
+        "activities": [
+          "Minőségbiztosítás",
+          "Teljesítmény tesztelés",
+          "Biztonsági auditok",
+          "Felhasználói elfogadási teszt"
+        ],
+        "deliverables": [
+          "Teszt jelentések",
+          "Teljesítmény metrikák",
+          "Biztonsági értékelés",
+          "Hibajavítások"
+        ]
       },
       "delivery": {
         "title": "Átadás",
-        "description": "Éles indítás és támogatás"
+        "description": "Éles indítás és támogatás",
+        "activities": [
+          "Telepítés előkészítése",
+          "Végső tesztelés",
+          "Tudásátadás",
+          "Ügyfél oktatás"
+        ],
+        "deliverables": [
+          "Éles telepítés",
+          "Dokumentáció",
+          "Oktatási anyagok",
+          "Támogatási terv"
+        ]
       }
     }
   },
@@ -167,9 +260,11 @@
     "services": "Szolgáltatások",
     "contact": {
       "title": "Kapcsolat",
-      "email": "info@tomex.hu",
-      "phone": "+36 20 331 4299"
+      "email": "contact@tomextech.com",
+      "phone": "+36 20 331 4299",
+      "location": "Budapest, Szava utca 4/b"
     },
+    "location": "Helyszín",
     "rights": "© 2024 TomexTech. Minden jog fenntartva."
   },
   "joinTeam": {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2, ClipboardList } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface ProcessDetailsProps {
   step: {
@@ -12,6 +13,8 @@ interface ProcessDetailsProps {
 }
 
 const ProcessDetails: React.FC<ProcessDetailsProps> = ({ step }) => {
+  const { t } = useTranslation();
+
   return (
     <AnimatePresence mode="wait">
       <motion.div
@@ -26,7 +29,7 @@ const ProcessDetails: React.FC<ProcessDetailsProps> = ({ step }) => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <ClipboardList className="w-5 h-5 text-tomex-teal" />
-              <h4 className="text-lg font-semibold text-white">Key Activities</h4>
+              <h4 className="text-lg font-semibold text-white">{t('howWeWork.keyActivities')}</h4>
             </div>
             <div className="space-y-2">
               {step.activities.map((activity, index) => (
@@ -38,7 +41,9 @@ const ProcessDetails: React.FC<ProcessDetailsProps> = ({ step }) => {
                   className="flex items-start gap-2"
                 >
                   <CheckCircle2 className="w-4 h-4 text-tomex-teal flex-shrink-0 mt-0.5" />
-                  <span className="text-gray-300 text-sm">{activity}</span>
+                  <span className="text-gray-300 text-sm">
+                    {t(`howWeWork.steps.${step.key}.activities.${index}`)}
+                  </span>
                 </motion.div>
               ))}
             </div>
@@ -48,7 +53,7 @@ const ProcessDetails: React.FC<ProcessDetailsProps> = ({ step }) => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <step.Icon className="w-5 h-5 text-tomex-teal" />
-              <h4 className="text-lg font-semibold text-white">Deliverables</h4>
+              <h4 className="text-lg font-semibold text-white">{t('howWeWork.deliverables')}</h4>
             </div>
             <div className="space-y-2">
               {step.deliverables.map((deliverable, index) => (
@@ -60,7 +65,9 @@ const ProcessDetails: React.FC<ProcessDetailsProps> = ({ step }) => {
                   className="flex items-start gap-2"
                 >
                   <CheckCircle2 className="w-4 h-4 text-tomex-teal flex-shrink-0 mt-0.5" />
-                  <span className="text-gray-300 text-sm">{deliverable}</span>
+                  <span className="text-gray-300 text-sm">
+                    {t(`howWeWork.steps.${step.key}.deliverables.${index}`)}
+                  </span>
                 </motion.div>
               ))}
             </div>

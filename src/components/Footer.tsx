@@ -70,7 +70,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-tomex-teal flex-shrink-0 mt-1" />
-                <span>Budapest, Szava utca 4/b</span>
+                <span>{t('footer.contact.location')}</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-tomex-teal flex-shrink-0" />
@@ -89,7 +89,7 @@ const Footer = () => {
 
           {/* Map */}
           <div className="lg:col-span-1">
-            <h3 className="text-white text-lg font-semibold mb-4">Location</h3>
+            <h3 className="text-white text-lg font-semibold mb-4">{t('footer.location')}</h3>
             <div className="w-full h-48 rounded-lg overflow-hidden">
               <iframe
                 title="TomexTech Office Location"
